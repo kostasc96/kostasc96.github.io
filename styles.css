@@ -92,3 +92,14 @@
     justify-items: center;
   }
 }
+
+
+/* FIXED HERO SPACING */
+.hero {
+  grid-template-columns: minmax(0,0.9fr) minmax(320px,0.7fr);
+  gap: 64px;
+}
+
+h1 {
+  font-size: clamp(1.8rem,3vw,3rem);
+}
